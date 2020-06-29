@@ -1,0 +1,189 @@
+
+*{
+  margin:0px;
+  padding:1px;
+  box-sizing:border-box;
+  font-family: 'Rokkitt', serif;
+}
+
+.top-nav-bar-container{
+  background-color: white;
+  display:inline-flex;
+  padding:2px;
+  position: fixed;
+  width:100%;
+}
+
+.nav-bar{
+  display: flex;
+  padding:1px;
+  width: 100%;
+
+}
+
+.top-logo-container{
+  display:inline-block;
+}
+.main-nav-bar{
+  margin:auto;
+}
+.more-nav-bar{
+  display: inline-flex;
+  margin: auto;
+}
+
+.icon-nav{
+  display: inline-flex;
+}
+img.coat-of-arms{
+  display:block;
+  width:100px;
+  height:auto;
+}
+
+img.map-icon{
+  display:inline-flex;
+  margin-left:10px;
+  height:56px;
+}
+
+a{
+  text-decoration: none;
+  font-size: larger;
+}
+
+button{
+  color: #212529;
+  background-color: #f9ed43;
+  border-radius: 4px;
+  display: inline-block;
+  letter-spacing: normal;
+  line-height: 1;
+  min-height: 3rem;
+  min-width: 151px;
+  padding: 1rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-color: #f9ed43;
+  font-size:large;
+    font-family: 'Rokkitt', serif;
+}
+ul{
+  list-style: none;
+}
+
+.desktop-nav-bar{
+  display:none;
+}
+.mobile-nav-bar{
+  display: inline-block;
+}
+.visit-nepal-container{
+  text-align: center;
+  padding-top:150px;
+  margin-top:127px;
+  background-image: url("../images/visit-nepal.png");
+  background-size: cover;
+  background-position: inherit;
+  width: auto;
+  height: 400px;
+}
+
+.sports-container{
+  text-align: center;
+  padding-top: 150px;
+  background-image: url("../images/sports.png");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 400px;
+}
+
+.experiences-container{
+  background-color: teal;
+  margin:30px;
+  padding:5px;
+}
+.experiences-text, .itenarary-text{
+  font-size: xx-large;
+}
+
+.visit-nepal-text, .sports-text{
+  color: tomato;
+    font-family: 'Kaushan Script', cursive;
+    font-size: xxx-large;
+    -webkit-text-stroke: 1px #AD1457;
+}
+
+.itenarary-container{
+  margin:30px;
+}
+.card-container{
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.card{
+  flex: 0 1 calc(25% - 1em);
+  border-radius: 5px;
+}
+.card-1{
+  background-image: url("../images/trekking.png");
+  background-size: cover;
+  width: auto;
+  height: 300px;
+}
+.card-2{
+  background-image: url("../images/trekking.png");
+  background-size: cover;
+  width: auto;
+  height: 300px;
+}
+.card-3{
+  background-image: url("../images/trekking.png");
+  background-size: cover;
+  width: auto;
+  height: 300px;
+}
+.card-4{
+  background-image: url("../images/trekking.png");
+  background-size: cover;
+  width: auto;
+  height: 300px;
+}
+
+.card-1>p,.card-2>p,.card-3>p,.card-4>p{
+  color:white;
+  text-align: center;
+  font-size: x-large;
+  text-transform: uppercase;
+  padding-top: 200px;
+  font-weight: bold;
+}
+.flag{
+  height:40px;
+}
+.nepal{
+  color: #fcbb21;
+    font-size: x-large;
+}
+.footer{
+  background:teal;
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (min-width:600px){
+  .desktop-nav-bar{
+    display:inline-flex;
+}
+
+  .mobile-nav-bar{
+    display: none;
+  }
+
+  li{
+    margin-left:20px;
+  }
+
+}
